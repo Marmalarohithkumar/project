@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+ <head></head>
+ <body> 
+  <script>
+    console.time();
+    console.assert(document.getElementById("demo"),"you have no element with id 'demo'");
+    console.log("this is outside of group");
+    console.group();
+    console.log("the text is displayed ,now as a group");
+    console.groupEnd();
+    console.log("now again back as normal");
+    console.timeEnd();
+    console.error("you have made a mistake ");
+    console.warn("you have a warning here");
+    console.clear();
+    console.count();
+</script> 
+ </body>
+</html>
