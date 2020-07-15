@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+ <head></head>
+ <body> 
+  <script>
+      // remaining string methods
+     let a="nibba,nibbi,malala";
+     console.log(a.search('nibba'));
+     console.log(a.slice(3,-6));
+     console.log(a.substring(3,6));
+     console.log(a.substr(3));
+     console.log(a.replace("malala","yousuf zai"));
+     let b = "    its me   ";
+     console.log(b.trim());
+     console.log(a.charCodeAt(4));
+     //remaining some array methods
+     let c=["123","qwerty",123];
+     console.log(c.toString());
+     console.log(c.splice(2,0,"xyz","456"));
+ </script> 
+ </body>
+</html>
