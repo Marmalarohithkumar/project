@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+ <head></head>
+ <body> 
+  <p id="demo"></p> 
+  <script>
+   <!--here 'a' is global variable-->
+   var a="kanna";
+   const b=5;
+   try{
+   const b=b+1;
+   console.log(b);
+   }
+   catch(err){
+     document.getElementById("demo").innerHTML=err;
+   }
+   myFunction();
+   function myFunction(){
+     
+     let a= "rohith";
+     //now 'a' is locally changed
+     console.log(a);
+    
+   }
+   console.log(a);
+ </script> 
+ </body>
+</html>
