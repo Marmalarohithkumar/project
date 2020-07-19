@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+ <head></head> 
+ <body> 
+  <script>
+      let ask=(question,yes,no)=>{
+      if(confirm(question))yes();
+       else no();}
+      ask("Do you agree?",()=>{alert("you have agreed")},()=>{alert("you cancelled the execution")})
+      
+  </script> 
+ </body>
+</html>
